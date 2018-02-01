@@ -1,6 +1,6 @@
 {
   "name": "node-red-flows-convert-to-code",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "for Node-RED. Out the code part of flows.json. for diff.",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -24,5 +24,6 @@
   },
   "bin": {
     "tocode": "tocode.js"
-  }
+  },
+  "preferGlobal": true
 }
