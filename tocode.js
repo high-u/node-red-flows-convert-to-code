@@ -1,6 +1,10 @@
 #!/usr/bin/env node
 
 var fs = require('fs-extra')
+// var commander = require('commander')
+// var prompt = require('co-prompt')
+// var co = require('co')
+// require('shelljs/global')
 
 // get parameter
 var flowsJsonName = process.argv[2]

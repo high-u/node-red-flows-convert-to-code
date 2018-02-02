@@ -1,7 +1,15 @@
 {
   "name": "node-red-flows-convert-to-code",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "for Node-RED. Out the code part of flows.json. for diff.",
+  "main": "tocode.js",
+  "bin": {
+    "tocode": "./tocode.js"
+  },
+  "preferGlobal": true,
+  "engines": {
+    "node": ">=0.10"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -20,10 +28,10 @@
   },
   "homepage": "https://github.com/high-u/node-red-flows-convert-to-code#readme",
   "dependencies": {
-    "fs-extra": "^5.0.0"
-  },
-  "bin": {
-    "tocode": "tocode.js"
-  },
-  "preferGlobal": true
+    "co": "^4.6.0",
+    "co-prompt": "^1.0.0",
+    "commander": "^2.13.0",
+    "fs-extra": "^5.0.0",
+    "shelljs": "^0.8.1"
+  }
 }
